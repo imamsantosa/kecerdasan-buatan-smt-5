@@ -50,7 +50,7 @@ public class AgenCerdasModif {
         System.out.println("SEMUA SUDAH BERSIH");
     }
     public static void main(String[] args) {
-        AgenCerdasModif a = new AgenCerdasModif(5);
+        AgenCerdasModif a = new AgenCerdasModif(6);
         a.setKondisi(1, "Lokasi 1", "kanan", "bersih");
         a.setKondisi(2, "Lokasi 2", "kiri", "kotor");
         a.setKondisi(3, "Lokasi 3", "kanan", "kotor");
